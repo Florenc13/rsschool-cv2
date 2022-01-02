@@ -27,6 +27,7 @@ I live and work in Moscow. Graduated from the MIREA Institute with a degree in R
         <h2>Оставить заявку 2</h2>
       </section>
     </main>
+
 ### Education ###
 * **University**: MIREA, Radio Engineer
 ### English ###
