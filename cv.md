@@ -6,6 +6,8 @@
 #### **GitHub**: [Florenc13](https://github.com/Florenc13) ####
 ### About Me: ###
 I live and work in Moscow. Graduated from the MIREA Institute with a degree in Radio Engineering. I am interested in programming.
+### Skills ###
+* Experienced PC user
 ### Code Example ###
     <header>
       <img src="/logo.png" alt="Логотип">
@@ -25,6 +27,7 @@ I live and work in Moscow. Graduated from the MIREA Institute with a degree in R
         <h2>Оставить заявку 2</h2>
       </section>
     </main>
+
 ### Education ###
 * **University**: MIREA, Radio Engineer
 ### English ###
