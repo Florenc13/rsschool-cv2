@@ -1,6 +1,16 @@
-<p class="cascade" style="padding: 15px;">123123</p>
-<style>
-.cascade{
-  font-size: 25px;
+.header {
+  width: 100%;
+  height: 200px;
+  background-color: chocolate;
 }
-</style>
+.main {
+  width: 100%;
+  height: 600px;
+  background-color: darkblue;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: darkgreen;
+}
