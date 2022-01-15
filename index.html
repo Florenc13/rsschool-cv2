@@ -4,12 +4,111 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Khisyametdinov CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-<a href='https://www.yandex.ru'>Ссылка</a>
-<img scr="rs_school_js.svg" alt="logo">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__name">123</div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container">
+            <div class="main-content">
+                <div class="main-content__photo">
+                    <img class= "main-photo" src="./icons/photo.jpeg" alt="photo" width="250" height="328">
+                </div>
+                <section class="main-content__name">
+                    <h1 class="main-content__title">Khisyametdinov Ruslan</h1>
+                    <p class="main-content__subtitle">Junior Fronend Developer</p>
+                </section>
+            </div>
+        </div>
+          <div class="container">
+            <div class="two-columns">
+              <div class="left-column">
+                <section class="contacts">
+                  <h3>Contacts</h3>
+                  <ul>
+                    <li>
+                      <img src="./icons/phone.svg" alt="Phone Icon" width="30" height="30">
+                      <p>+7 (906) 061-43-89</p>
+                    </li>
+                    <li>
+                      <img src="./icons/email.svg" alt="Email Icon" width="30" height="30">
+                      <p>khisyametdinov.ruslan@gmail.com</p>
+                    </li>
+                  </ul>
+                </section>
+                <section class="skills">
+                  <h3>Skills</h3>
+                  <ul>
+                    <li>Experienced PC user</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git</li>
+                    <li>Adobe Photoshop</li>
+                  </ul>
+                </section>
+                <section class="languages">
+                  <h3>Languages</h3>
+                  <ul>
+                    <li>
+                      <p class="language-name">English</p>
+                      <p>A1</p>
+                    </li>
+                    <li>
+                      <p class="language-name">Russian</p>
+                      <p>Native</p>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+
+              <div class="right-column">
+                  <div class="resume__content-about">
+                    <h3>About me</h3>
+                    <h4>
+                      I live and work in Moscow. Graduated from the MIREA Institute with a degree in Radio Engineering. I am interested in programming.
+                    </h4>
+                  </div>
+                  <div class="resume__content-code">
+                    <h3>Example of a code</h3>
+                    <pre>
+                      function getQueryVariable(variable)
+                      {
+                             var query = window.location.search.substring(1);
+                             var vars = query.split("&");
+                             for (var i=0;i<vars.length;i++) {
+                                     var pair = vars[i].split("=");
+                                     if(pair[0] == variable){return pair[1];}
+                             }
+                             return(false);
+                      }
+                    </pre>
+              </div>
+            </div>
+          </div>
+    </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__column">
+              <a class="my-github" target="_blank" href="https://github.com/Florenc13">
+                <img class="github-icon" src="./icons/github.svg" alt="logo github-icon" width="26" height="26">
+                     <p>My GitHub</p>
+              </a>
+              <p style="color: black; font-size: 24px">2022</p>
+              <a target="_blank" href="https://rs.school/js/">
+                <img src="./icons/rs_school_js.svg" alt="logo rsschool-icon" width="73" height="26">
+              </a>
+            </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

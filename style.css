@@ -1,6 +1,147 @@
-<p class="cascade" style="padding: 15px;">123123</p>
-<style>
-.cascade{
-  font-size: 25px;
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
 }
-</style>
+
+ul,
+li {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.contacts li img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+body {
+  display: flex;
+  background-color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+.wrapper {
+  max-width: 1420px;
+height: 100%;
+margin: 0 auto;
+}
+.container {
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 0 40px;
+}
+
+main h3 {
+  width: 136px;
+  margin: 40px auto 20px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+main .contacts h3 {
+  margin-bottom: 0;
+  transform: translate(0, -50%);
+}
+
+main li {
+  margin-bottom: 10px;
+}
+
+
+.two-columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-column {
+  padding: 0 40px;
+  width: 42%;
+  color: #000000;
+}
+
+.contacts {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.languages {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.right-column {
+  width: 58%;
+  padding: 40px;
+}
+
+.resume__content-about {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header__name {
+  display: flex;
+  justify-content: space-between;  
+  padding: 0 10px;
+  align-items: center;
+  background-color: #000000;  
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.main-photo {
+  display: block;
+}
+
+.main-content__name {
+  margin: 0 auto;   
+}
+
+.footer__column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 10px;
+  font-size: 0.8rem;
+  background-color: #b10000;
+  color: #1f1e1e2f;
+}
+
+.my-github {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #080505;
+}
