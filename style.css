@@ -125,6 +125,10 @@ main li {
   margin: 0 auto;   
 }
 
+.code-example p {
+  margin-left: 45px;
+}
+
 .footer__column {
   display: flex;
   justify-content: space-around;
